@@ -1,0 +1,19 @@
+[package]
+name = "resellaa"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-cors = "0.6.4"
+actix-web = "4.2.1"
+chrono = { version = "0.4.23", features = ["serde"] }
+config = "0.13.3"
+diesel = { version = "2.0.2", features = ["postgres", "r2d2", "chrono"] }
+dotenvy = "0.15.6"
+mime = "0.3.16"
+r2d2 = "0.8.10"
+serde = "1.0.152"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
