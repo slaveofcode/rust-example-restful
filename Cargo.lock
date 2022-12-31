@@ -933,9 +933,9 @@ dependencies = [
 
 [[package]]
 name = "once_cell"
-version = "1.16.0"
+version = "1.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860"
+checksum = "6f61fba1741ea2b3d6a1e3178721804bb716a68a6aeba1149b5d52e3d464ea66"
 
 [[package]]
 name = "ordered-multimap"
@@ -1175,23 +1175,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848"
 
 [[package]]
-name = "resellaa"
-version = "0.1.0"
-dependencies = [
- "actix-cors",
- "actix-web",
- "chrono",
- "config",
- "diesel",
- "dotenvy",
- "mime",
- "r2d2",
- "serde",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "ron"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1210,6 +1193,23 @@ checksum = "f6d5f2436026b4f6e79dc829837d467cc7e9a55ee40e750d716713540715a2df"
 dependencies = [
  "cfg-if",
  "ordered-multimap",
+]
+
+[[package]]
+name = "rustapirest"
+version = "0.1.0"
+dependencies = [
+ "actix-cors",
+ "actix-web",
+ "chrono",
+ "config",
+ "diesel",
+ "dotenvy",
+ "mime",
+ "r2d2",
+ "serde",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]

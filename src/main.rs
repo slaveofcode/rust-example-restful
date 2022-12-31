@@ -65,7 +65,7 @@ async fn main() -> std::io::Result<()> {
             .app_data(json_config)
             .app_data(web::Data::new(AppState {
                 is_maintenance,
-                app_name: String::from("Resella API"),
+                app_name: String::from("Restful API"),
                 db_pool: pool_connections.clone(),
             }))
             .wrap(middleware::DefaultHeaders::new().add(("X-Api-Ver", "v1")))
