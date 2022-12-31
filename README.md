@@ -1,4 +1,12 @@
-# Resella
+# Rust Example Restful API using Actix Web
+
+This is an example implementation of restful api built using Rust language and Actix-Web framework.
+
+## Spec
+
+- Postgresql
+- Diesel (ORM)
+- Actix Web (Framework)
 
 ## Setup
 
